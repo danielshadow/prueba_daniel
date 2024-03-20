@@ -49,7 +49,7 @@ if (isset($_POST['regresar'])){
             
             <?php
              
-                  $query = $con -> prepare("SELECT * FROM urgencias, doctor");
+                  $query = $con -> prepare("SELECT * FROM urgencias,doctor");
                   $query -> execute ();
                   $resultados = $query -> fetchAll(PDO::FETCH_ASSOC);
 
@@ -67,7 +67,10 @@ if (isset($_POST['regresar'])){
             </tr>
             <?php
                   }
+                 
             ?>
+
+            
 
             
          
