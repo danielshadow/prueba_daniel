@@ -1,0 +1,47 @@
+h2{
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+
+
+.conte{
+margin-top: 3%;
+background-color:rgb(17, 255, 0);
+border: 6px solid rgb(0, 79, 0);
+margin-left: 40%;
+margin-right: 40%;
+
+
+}
+
+body{
+    background-image: url("https://images3.alphacoders.com/300/3007.jpg");
+    background-repeat: no-repeat;
+    background-size:100% ;
+    
+}
+
+input{
+    background-color: rgb(217, 217, 217);
+    margin-left: 50px;
+    height: 30px;
+
+    
+}
+
+.b{
+    margin-left: 35%;
+    background-color: rgb(4, 84, 0);
+    color: #000000;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 255, 0);
+    border-radius: 10px;
+    margin-left: 40%;
+margin-right: 40%;
+margin-top: 50px;
+border: 6px solid rgb(11, 67, 0);
+
+
+}
