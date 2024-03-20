@@ -1,0 +1,32 @@
+===Base de datos hospit
+
+== Estructura de tabla para la tabla doctor
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id_doc**//|int(11)|No|
+|nom_doc|varchar(40)|No|
+|ape_doc|varchar(30)|No|
+|hora|varchar(40)|No|
+== Volcado de datos para la tabla doctor
+
+|1|alfredo|torreon|10:30 am
+|2|antonio|fernandes|12:23 am
+|3|sebastian|antoñeta|3:00 am
+|4|orlando|fernandes|11:11 pm
+== Estructura de tabla para la tabla urgencias
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**documento**//|int(20)|No|
+|nombre|varchar(30)|No|
+|apellido|varchar(30)|No|
+|enfermedad|varchar(40)|No|
+== Volcado de datos para la tabla urgencias
+
+|773644|romero|antoniaeta|dengue
+|774342|maria|mismers|hemorroide interna
+|33211111|tatian|miyutsu|apendicitis
+|33424332|alonzo|gorje|tuberculosis

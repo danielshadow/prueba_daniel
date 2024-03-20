@@ -3,7 +3,10 @@
     require_once("conexion/conexion.php");
     $db = new Database();
     $con = $db -> conectar();
-
+    if (isset($_POST['ingresar'])){
+        header('Location: consulta_doc.php');
+    
+    }
 
   if (isset($_POST['validar']))
    {
@@ -33,7 +36,7 @@
       else{
 
         
-        $insertSQL = $con->prepare("INSERT INTO urgencias( documento , nombre, apellido , enfermedad) VALUES( '$documento', '$nombre', '$apellido', '$enfermedad',)");
+        $insertSQL = $con->prepare("INSERT INTO urgencias( documento, nombre, apellido, enfermedad) VALUES( '$documento', '$nombre', '$apellido', '$enfermedad')");
         $insertSQL -> execute();
         echo '<script> alert("REGISTRO EXITOSO");</script>';
        

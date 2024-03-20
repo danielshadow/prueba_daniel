@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>consulta</title>
-    <link rel="stylesheet" href="tabla.css">
+    <link rel="stylesheet" href="css/tabla.css">
 </head>
 <body>
 <form action="" method="POST">
@@ -49,7 +49,7 @@ if (isset($_POST['regresar'])){
             
             <?php
              
-                  $query = $con -> prepare("SELECT * FROM urgencias,doctor");
+                  $query = $con -> prepare("SELECT * FROM urgencias, doctor");
                   $query -> execute ();
                   $resultados = $query -> fetchAll(PDO::FETCH_ASSOC);
 
